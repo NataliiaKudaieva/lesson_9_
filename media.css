@@ -1,0 +1,31 @@
+@media (min-width: 320px) and (max-width: 580px) {
+  .floats {
+    width: 100%;
+  }
+  .floats:nth-child(2) {
+    margin-left: 5px;
+  }
+  .inline_blocks {
+    width: 100%;
+  }
+  .inline_blocks:nth-child(2) {
+    margin-left: 5px;
+  }
+  .wrapper {
+    display: block;
+  }
+  .flex_blocks {
+    width: 100%;
+  }
+  .flex_sidebar {
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+  }
+}
+
+@media (min-width: 580px) and (max-width: 1023px) {
+    .flex_blocks {
+        width: 100%;
+    }
+}

@@ -1,0 +1,91 @@
+:root {
+  --mainBackgroundColor: purple;
+  --info-color: brown;
+}
+
+body {
+  padding: 20px;
+}
+
+main {
+  max-width: 1240px;
+  background-color: var(--mainBackgroundColor);
+  padding: 20px;
+  margin: auto;
+}
+
+.floats_section {
+  margin-top: 80px;
+}
+
+.floats {
+  width: calc(33.332% - 32px);
+  float: left;
+  text-align: center;
+  min-height: 150px;
+  background-color: rgb(85, 85, 192);
+  margin: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+.floats:nth-child(2) {
+  margin-left: 35px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.blocks_section {
+  margin-top: 80px;
+}
+
+.inline_blocks {
+  width: calc(33.332% - 37px);
+  min-height: 150px;
+  display: inline-block;
+  background-color: var(--info-color);
+  margin: 4px;
+  text-align: center;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+.inline_blocks:nth-child(2) {
+  margin-left: 35px;
+}
+.flex_section {
+  margin-top: 80px;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-right: 20px;
+}
+
+.flex_blocks {
+  width: calc(33.332% - 33px);
+  min-height: 150px;
+  background-color: rgb(85, 85, 192);
+  text-align: center;
+  border: 1px solid black;
+}
+
+.flex_sidebar {
+  padding: 20px;
+  min-height: 180px;
+  margin-left: 30px;
+  background-color: var(--mainBackgroundColor);
+  border: 1px solid black;
+}
